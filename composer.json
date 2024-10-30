@@ -1,0 +1,26 @@
+{
+    "name": "russell/optimizers",
+    "description": "Excellent Image Optimizer! A practical image optimizer form plug-in that works well with great flexibility.",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "rsrussell",
+            "email": "abusayedrussell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "support": {
+        "email": "abusayedrussell@gmail.com"
+    },
+     "autoload": {
+        "psr-4": {
+            "IMOP\\": "./opt"
+        },
+        "files": [
+            "opt/Helper/IMOPCommonHelper.php",
+            "opt/Helper/IMOPFunctionHelper.php"
+        ]  
+    }
+}
